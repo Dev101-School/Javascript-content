@@ -10,27 +10,27 @@
   </head>
   <body class="text-center container">
     <main>
-        <h1 class="banner p-3 text-primary">TextEditor</h1>
+        <h1 class="banner p-3 heading">TextEditor</h1>
         <div class="row">
           <div class="col">
-            <button id="bold" type="button"  class="btn btn-light">Bolb</button>
-            <button id="italic" type="button"  class="btn btn-light">Italic</button>
-            <button id="underline" type="button"  class="btn btn-light">Underline</button>
-            <button id="left-align" type="button"  class="align btn btn-light"><i class="fas fa-align-left"></i></button>
-            <button id="center-align" type="button"  class="align btn btn-light"><i class="fas fa-align-center"></i></button>
-            <button id="right-align" type="button"  class="align btn btn-light"><i class="fas fa-align-right"></i></button>
+            <button id="bold" type="button"  class="btn btn-lg btn1 mt-2">Bold</button>
+            <button id="italic" type="button"  class="btn btn-lg btn2 mt-2">Italic</button>
+            <button id="underline" type="button"  class="btn btn-lg btn3 mt-2">Underline</button>
+            <button id="left-align" type="button"  class="align btn btn-light btn-lg mt-2"><i class="fas fa-align-left"></i></button>
+            <button id="center-align" type="button"  class="align btn btn-light btn-lg mt-2"><i class="fas fa-align-center"></i></button>
+            <button id="right-align" type="button"  class="align btn btn-light btn-lg mt-2"><i class="fas fa-align-right"></i></button>
           </div>
         </div>
         <hr />
         <div class="row editor">
           <div class="col">
             <div class="form-group">
-              <label for="text-input">Your Document Text</label>
+              <label for="text-input" class="text-white p-2">Your Document Text</label>
               <textarea class="form-control"  id="text-input" rows="3"></textarea>
           </div>
           </div>
           <div class="col">
-            <label for="text-input">Formatted Text</label>
+            <label for="text-input" class="text-white p-2">Formatted Text</label>
             <div id="text-output" class="bg-light">
             </div>
           </div>
